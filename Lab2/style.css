@@ -1,0 +1,26 @@
+.footer{
+    border: 2px solid black;
+    margin-right: 500px; 
+    margin-left: 684px;
+    margin-right: 633px;
+}
+
+.img{
+    padding: 70px;
+    top: -729px;
+    float: right;
+    max-width: fit-content;
+}
+
+.header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.video{
+    text-align: center;
+}
+
+.audio{
+    text-align: center;
+}

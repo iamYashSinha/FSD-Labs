@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #faeded">
+
+    <div class="header">
+        <h2>MIT WPU ADMISSION FORM</h2>
+    </div>
+    <div class="img">
+        <img src="MIT-WPU2.jpg" alt="College Photo">
+     </div>
+    
+    <form action="backend.php">
+        <label for="name"></label>
+        <div>
+           Name: <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+    <div class="class">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Yash</td>
+                <td>Sinha</td>
+                <td>1032202022</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Tejas</td>
+                <td>Patil</td>
+                <td>1032202018</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Aditya</td>
+                <td>Taware</td>
+                <td>1032202012</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div class = "textbox">
+            Write about yourself: <br><textarea name="myText" cols="40" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Program</label>
+            <select name="myCar" id="car">
+                <option value="ind">FY Btech</option>
+                <option value="swf" selected>SY Btech</option>
+                <option value="swf" selected>TY Btech</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <hr>
+        
+        <hr>
+        <a href="index2.html"target="_blank">Vist Next page</a>
+    </form> 
+       
+   <hr>
+        <div class="footer">
+            <footer>
+            Author: Yash Sinha
+            <br>
+            <a href="1032202022@mitwpu.edu.in">10322020222mitwpu.edu.in</a>
+          </footer>
+        </div>
+      
+</body>
+
+</html>
