@@ -2,6 +2,7 @@
 
 
 .formdesign{
+    font-weight: bold;
    font-size: medium;
    padding: 10px;
    
@@ -31,7 +32,8 @@
     margin-left: 64px;
     margin-top: 15px;
     cursor: pointer;
-   
+    font-weight: bold;
+   background-color: #dec43c40;
 }
 
 .but:hover{
@@ -44,4 +46,9 @@
 
 #pass{
     margin-right: 24px;
+}
+
+.heading{
+    margin-left: 40px;
+    font-size: small;
 }
