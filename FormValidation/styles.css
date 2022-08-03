@@ -8,7 +8,7 @@
 }
 
 .formdesign input{
-    width: 10%;
+    width: 18%;
     padding: 4px 20px;
     border: 1px solid #c38f44;
     margin: 7px;
@@ -29,7 +29,7 @@
     font-size: 16px;
     margin-right: 25px;
     margin-left: 64px;
-    margin-top: 20px;
+    margin-top: 15px;
     cursor: pointer;
    
 }
