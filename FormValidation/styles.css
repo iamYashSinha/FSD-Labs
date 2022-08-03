@@ -1,0 +1,47 @@
+
+
+
+.formdesign{
+   font-size: medium;
+   padding: 10px;
+   
+}
+
+.formdesign input{
+    width: 10%;
+    padding: 4px 20px;
+    border: 1px solid #c38f44;
+    margin: 7px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.formerror{
+    font-weight: bold;
+    color: red;
+}
+
+.but{
+    border: 1px solid #c38f44;
+    border-radius: 43px;
+    width: 106px;
+    height: 32px;
+    font-size: 16px;
+    margin-right: 25px;
+    margin-left: 64px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+}
+
+.but:hover{
+    text-decoration: underline; 
+}
+
+#cpass{
+    margin-right: 84px;
+}
+
+#pass{
+    margin-right: 24px;
+}
