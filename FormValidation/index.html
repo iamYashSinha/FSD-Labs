@@ -17,32 +17,35 @@
         border-radius: 20px;
         margin-left: 250px;
         margin-right: 250px;
+        margin-top: 50px;
         background: url('bg2.webp');
         padding: 10px 10px;
     }
 </style>
 </head>
 <body>
-    <h1>Form Validation</h1>
+    <div class="heading">
+        <h1>Form Validation</h1>
+    </div>
     <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
         <div class="formdesign" id="name">
-            Name: <input type="text" name="fname" required><p class="formerror"> </p>
+           Name: <input type="text" placeholder="Enter Your Name" name="fname" required> <p class="formerror"> </p>
         </div>
 
         <div class="formdesign" id="email">
-            Email: <input type="email" name="femail" required><p class="formerror"> </p>
+            Email: <input type="email" placeholder="Enter Your Email" name="femail" required><p class="formerror"> </p>
         </div>
 
         <div class="formdesign" id="phone">
-            Phone: <input type="phone" name="fphone" required><p class="formerror"> </p>
+            Phone: <input type="phone" placeholder="Enter Your Phone No." name="fphone" required><p class="formerror"> </p>
         </div>
 
         <div class="formdesign" id="pass">
-            Password: <input type="password" name="fpass" required><p class="formerror"> </p>
+            Password: <input type="password" placeholder="Enter Password" name="fpass" required><p class="formerror"> </p>
         </div>
 
         <div class="formdesign" id="cpass">
-            Confirm Password: <input type="password" name="fcpass" required><p class="formerror"> </p>
+            Confirm Password: <input type="password" placeholder="Re-type Password" name="fcpass" required><p class="formerror"> </p>
         </div>
 
         <input class="but" type="submit" value="Sign Up">
