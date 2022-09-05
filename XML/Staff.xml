@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stafflist SYSTEM "file:/F:/FSD-Labs/XML/Staff.dtd">
+<!-- You have to delete the DOCTYPE below -->
+<?xml-stylesheet type="text/xsl" href="Staff.xsl"?>
+<stafflist>
+    
+    <staff bno="b001">
+        <sno>S11</sno>
+        <name>
+            <fnm>Ajay</fnm>
+            <lnm>Marne</lnm>
+        </name>
+        <position> Manager</position>
+        <sal>50000.00</sal>
+    </staff>
+    
+    <staff bno="b001">
+        <sno>S12</sno>
+        <name>
+            <fnm>Pooja</fnm>
+            <lnm>Kharat</lnm>
+        </name>
+        <position> Employee</position>
+        <sal>34000.00</sal>
+    </staff>
+    <staff bno="b001">
+        <sno>S13</sno>
+        <name>
+            <fnm>Jaya</fnm>
+            <lnm>Bhanot</lnm>
+        </name>
+        <position>Employee</position>
+        <sal>30000.00</sal>
+    </staff>
+    
+    <staff bno="b002">
+        <sno>S21</sno>
+        <name>
+            <fnm>Ajinkya</fnm>
+            <lnm>Jadhav</lnm>
+        </name>
+        <position>Manager</position>
+        <sal>53000.00</sal>
+    </staff>
+    
+    <staff bno="b002">
+        <sno>S22</sno>
+        <name>
+            <fnm>Priyanka</fnm>
+            <lnm>Gandhi</lnm>
+        </name>
+        <position>Manager</position>
+        <sal>45000.00</sal>
+    </staff>
+    <staff bno="b002">
+        <sno>S23</sno>
+        <name>
+            <fnm>Amit</fnm>
+            <lnm>Desai</lnm>
+        </name>
+        <position>Employee</position>
+        <sal>30000.00</sal>
+    </staff>
+    
+    <branch>
+        <bno>b001</bno>
+        <city> pune</city>
+        <bnm>Swargate</bnm>
+    </branch>
+    <branch>
+        <bno>b002</bno>
+        <city>mumbai</city>
+        <bnm>Nariman Point</bnm>
+    </branch>
+    <branch>
+        <bno>b003</bno>
+        <city> pune</city>
+        <bnm>Kothrud</bnm>
+    </branch>
+</stafflist>

@@ -1,29 +1,48 @@
 
 
 
+.container{
+    width: 60%;
+    height: 63vh;
+    display: inline-block;
+    background-color: rgba(134 198 201 / 30%);
+    color: rgb(0, 0, 0);
+    
+}
+
+.container input{
+    text-align: center;
+}
+
 .formdesign{
     font-weight: bold;
    font-size: medium;
    padding: 10px;
-   
 }
 
 .formdesign input{
-    width: 18%;
+    border: 0;
+    border-bottom:1px solid rgb(110, 40, 40);
+    width: 40%;
     padding: 4px 20px;
-    border: 1px solid #c38f44;
+    /* border: 1px solid #c38f44; */
     margin: 7px;
-    border-radius: 15px;
+    border-radius: 4px;
     font-size: 15px;
 }
 
 .formerror{
+    position: absolute;
     font-weight: bold;
     color: red;
+    padding-left: 9px;
+    margin-top: 8px;
 }
 
 .but{
-    border: 1px solid #c38f44;
+    /* border: 1px solid #c38f44; */
+    
+    background-color: transparent;
     border-radius: 43px;
     width: 106px;
     height: 32px;
@@ -33,16 +52,27 @@
     margin-top: 15px;
     cursor: pointer;
     font-weight: bold;
-   background-color: #dec43c40;
+   /* background-color: #dec43c40; */
+   border-color: rgb(44, 39, 39);
+   color: rgb(31, 29, 29);
 }
 
+.but:active {
+    transform: scale(0.98);
+  }
+
 .but:hover{
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 
 #cpass{
-    margin-right: 84px;
+    margin-right: 98px;
 }
+
+#cpass input{
+    width: 50%;
+}
+
 
 #pass{
     margin-right: 24px;

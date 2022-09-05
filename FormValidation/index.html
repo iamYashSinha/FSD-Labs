@@ -5,51 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
-    <script src="index.js"></script>
+   
     <link rel="stylesheet" href="styles.css">
-
 <style>
     body{
-       
         text-align: center;
-        /* justify-content: center; */
-        border: 1px solid #c38f44; 
         border-radius: 20px;
         margin-left: 250px;
         margin-right: 250px;
         margin-top: 50px;
-        background: url('bg2.webp');
+        background-color: rgb(255, 255, 255);
         padding: 10px 10px;
     }
 </style>
 </head>
 <body>
-    <div class="heading">
-        <h1>Form Validation</h1>
+    <div class="container">
+        <div class="heading">
+            <h1>Form Validation</h1>
+        </div>
+        <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="formdesign" id="name">
+               Name: <input type="text" placeholder="Enter Your Name" name="fname" required> <span class="formerror"></span>
+            </div>
+    
+            <div class="formdesign" id="email">
+                Email: <input type="email" placeholder="Enter Your Email" name="femail" required><span class="formerror"> </span>
+            </div>
+    
+            <div class="formdesign" id="phone">
+                Phone: <input type="phone" placeholder="Enter Your Phone No." name="fphone" required><span class="formerror"> </span>
+            </div>
+    
+            <div class="formdesign" id="pass">
+                Password: <input type="password" placeholder="Enter Password" name="fpass" required><span class="formerror"> </span>
+            </div>    
+            <div class="formdesign" id="cpass">
+                Confirm Password: <input type="password" placeholder="Re-type Password" name="fcpass" required><span class="formerror"> </span>
+            </div>
+    
+            <input class="but" type="submit" value="Sign Up">
+    
+        </form>
     </div>
-    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
-        <div class="formdesign" id="name">
-           Name: <input type="text" placeholder="Enter Your Name" name="fname" required> <p class="formerror"> </p>
-        </div>
-
-        <div class="formdesign" id="email">
-            Email: <input type="email" placeholder="Enter Your Email" name="femail" required><p class="formerror"> </p>
-        </div>
-
-        <div class="formdesign" id="phone">
-            Phone: <input type="phone" placeholder="Enter Your Phone No." name="fphone" required><p class="formerror"> </p>
-        </div>
-
-        <div class="formdesign" id="pass">
-            Password: <input type="password" placeholder="Enter Password" name="fpass" required><p class="formerror"> </p>
-        </div>
-
-        <div class="formdesign" id="cpass">
-            Confirm Password: <input type="password" placeholder="Re-type Password" name="fcpass" required><p class="formerror"> </p>
-        </div>
-
-        <input class="but" type="submit" value="Sign Up">
-
-    </form>
+    <script src="index.js"></script>
 </body>
 </html>

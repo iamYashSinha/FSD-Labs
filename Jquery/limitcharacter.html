@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Limit Character</title>
+</head>
+
+<style>
+    .container form{
+      text-align: center;
+      margin-top: 200px;
+    }
+
+  </style>
+
+<body>
+    <div class="container">
+        <form action="">
+            <label for="">You Can fill upto 25 Characters</label>
+            <br>
+            <textarea id="textarea" maxlength="25"></textarea>
+            <br>
+            <span id="rchars">25</span> Character(s) Remaining
+        </form>
+    </div>
+</body>
+
+ <script>
+ var maxLength = 25;
+$('textarea').keyup(function() {
+  var textlen = maxLength - $(this).val().length;
+  $('#rchars').text(textlen);
+});
+ </script>
+
+</html>

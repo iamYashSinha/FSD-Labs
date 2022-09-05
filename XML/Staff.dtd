@@ -1,0 +1,50 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT stafflist (staff+,branch+)>
+<!ATTLIST stafflist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT staff (sno,name,position,sal)>
+<!ATTLIST staff
+  xmlns CDATA #FIXED ''
+  bno NMTOKEN #REQUIRED>
+
+<!ELEMENT branch (bno,city,bnm)>
+<!ATTLIST branch
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sno (#PCDATA)>
+<!ATTLIST sno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (fnm,lnm)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST position
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sal (#PCDATA)>
+<!ATTLIST sal
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT bno (#PCDATA)>
+<!ATTLIST bno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT city (#PCDATA)>
+<!ATTLIST city
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT bnm (#PCDATA)>
+<!ATTLIST bnm
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fnm (#PCDATA)>
+<!ATTLIST fnm
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lnm (#PCDATA)>
+<!ATTLIST lnm
+  xmlns CDATA #FIXED ''>
